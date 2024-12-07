@@ -1,0 +1,33 @@
+.faq-container {
+    width: 500px;
+    display:flex;
+    justify-content:cneter;
+    align-items:cneter;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border:  2px solid red;
+}
+
+
+
+.faq-question > .faq-heading {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border:  2px solid black;
+    cursor: pointer;
+
+}
+
+.faq-question > .faq-description {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: show;
+}
+
